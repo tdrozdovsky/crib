@@ -33,56 +33,21 @@ doxygen tool.
 
 ```mermaid
 graph TD
-    Start --> Stop
-```
-
-```mermaid
-sequenceDiagram
-  Home Edge Node->>+Home Edge Node1: Hello
-```
-
-```mermaid
-sequenceDiagram
-    participant Alice
-    participant Bob
-    Alice->>John: Hello John, how are you?
-    loop Healthcheck
-        John->>John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts <br/>prevail!
-    John-->>Alice: Great!
-    John->>Bob: How about you?
-    Bob-->>John: Jolly good!
-```
-# Mermaid Test
-
-```mermaid
-graph TD
-    id1[A] --> id2[B]
-    id2[B] --> id3[C]
-    id3[C] --> id4[D]
-    id4[D] --> id5[E]
-    id5[E] --> id6[F]
-    id6[F] --> id7[G]
-    id7[G] --> id8[H]
-```  
+	A[fa:fa-user User] -->|Generate & store passphrase: ''secret''| Storage1(Home Edge Orchestrator #1)
+	A[fa:fa-user User] -->|Generate & store passphrase: ''secret''| Storage2(Home Edge Orchestrator #2)
     
-```mermaid
-graph TD;
-A-->B;
-A-->C;
-B-->D;
-C-->D;
+subgraph Home Edge Node #2
+    HEO2[Home Edge Orchestrator #2]-->CAPP2(Client app)
+    HEO2[Home Edge Orchestrator #2]-->Storage2
+	Storage2[(...passprase.txt)]
+end	
+
+subgraph Home Edge Node #1
+    HEO1[Home Edge Orchestrator #1]-->CAPP1(Client app)
+	Storage1[(...passprase.txt)]
+end	
+
 ```
 
-```mermaid
-graph TD
-	A[Christmas] -->|Get money| B(Go shopping)
-	B --> C{Let me think}
-	C -->|One| D[Laptop]
-	C -->|Two| E[iPhone]
-	C -->|Three| F[fa:fa-car Car]
-	C -->|Four| F[fa:fa-user Car]
-```					
 
 [Shell]: (shell/README.md)
