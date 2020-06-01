@@ -31,5 +31,49 @@ This part contains references to the documentation, the Makefile template.
 This part contains references to the documentation and example how to use
 doxygen tool.
 
+```mermaid
+graph TD
+    Start --> Stop
+```
+
+```mermaid
+sequenceDiagram
+  Home Edge Node->>+Home Edge Node1: Hello
+```
+
+```mermaid
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+```
+# Mermaid Test
+
+    ```mermaid
+    graph TD
+      id1[A] --> id2[B]
+      id2[B] --> id3[C]
+      id3[C] --> id4[D]
+      id4[D] --> id5[E]
+      id5[E] --> id6[F]
+      id6[F] --> id7[G]
+      id7[G] --> id8[H]
+    ```  
+    
+```mermaid
+graph TD;
+A-->B;
+A-->C;
+B-->D;
+C-->D;
+```
+
 
 [Shell]: (shell/README.md)
