@@ -38,13 +38,12 @@ graph TD
     
 subgraph Home Edge Node #2
     HEO2[Home Edge Orchestrator #2]-->CAPP2(Client app)
-    HEO2[Home Edge Orchestrator #2]-->Storage2
-	Storage2[(...passprase.txt)]
+    HEO2[Home Edge Orchestrator #2]-->Storage2[(...passprase.txt)]
 end	
 
 subgraph Home Edge Node #1
     HEO1[Home Edge Orchestrator #1]-->CAPP1(Client app)
-	Storage1[(...passprase.txt)]
+    HEO1[Home Edge Orchestrator #1]-->Storage1[(...passprase.txt)]
 end	
 
 ```
