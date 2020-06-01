@@ -10,17 +10,15 @@ subgraph Home Edge Node #1
 end	
 
 ```
+```plantuml
+@startuml component
+actor client
+node app
+database db
 
-<!--
-@startuml firstDiagram
-
-Alice -> Bob: Hello
-Bob -> Alice: Hi!
-	
+db -> app
+app -> client
 @enduml
--->
-
-![](firstDiagram.svg)
-
+```
 
 [Shell]: (shell/README.md)
