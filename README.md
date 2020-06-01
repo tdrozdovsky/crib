@@ -9,13 +9,11 @@ subgraph Home Edge Node #1
     HEO1[Home Edge Orchestrator #1]-->Storage1[...passprase.txt]
 end	
 
-```
-@startuml
+```@startuml
 
 top to bottom direction
 
 actor User
-
 
 node "Home Edge Node #1" {
   User --> [f1] : Generate & store ''secret''
@@ -42,4 +40,5 @@ node "Home Edge Node #2" {
 }
 
 @enduml
+```
 [Shell]: (shell/README.md)
