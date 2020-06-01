@@ -6,8 +6,8 @@ graph TD
 	A[fa:fa-user User] -->|Generate & store passphrase: ''secret''| Storage2(Home Edge Orchestrator #2)
     
 subgraph Home Edge Node #2
-    HEO2[Home Edge Orchestrator #2]-->CAPP2(Client app)
     HEO2[Home Edge Orchestrator #2]-->Storage2[...passprase.txt]
+    HEO2[Home Edge Orchestrator #2]-->CAPP2(Client app)
 end	
 
 subgraph Home Edge Node #1
