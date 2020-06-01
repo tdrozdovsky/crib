@@ -9,7 +9,8 @@ subgraph Home Edge Node #1
     HEO1[Home Edge Orchestrator #1]-->Storage1[...passprase.txt]
 end	
 
-```@startuml
+```plantuml
+@startuml
 
 top to bottom direction
 
