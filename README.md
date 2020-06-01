@@ -11,5 +11,16 @@ end
 
 ```
 
+<!--
+@startuml firstDiagram
+
+Alice -> Bob: Hello
+Bob -> Alice: Hi!
+	
+@enduml
+-->
+
+![](firstDiagram.svg)
+
 
 [Shell]: (shell/README.md)
