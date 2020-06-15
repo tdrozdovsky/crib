@@ -1,6 +1,6 @@
 # CRIB
 
-[Crib]("Hello")
+[Crib]( "Hello")
 
 ```plantuml
 
