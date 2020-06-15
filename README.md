@@ -1,5 +1,7 @@
 # CRIB
 
+[Crib]("Hello")
+
 ```plantuml
 
 @startuml
