@@ -1,6 +1,6 @@
 # CRIB
 
-[Crib](https://github.com/tdrozdovsky/crib/blob/tdrozdovsky-patch-1/README.md "Hello")
+[_Crib_](https://github.com/tdrozdovsky/crib/blob/tdrozdovsky-patch-1/README.md "Hello")
 
 ```plantuml
 
